@@ -1,0 +1,21 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+// -- escreva seu código abaixo dessa linha  --- (e não altere esta linha)
+
+int main() {
+    float a, b, m;
+    
+    printf("Insira o valor da primeira prova: ");
+    scanf("%f", & a);
+    printf("Insira o valor da segunda prova: ");
+    scanf("%f", & b);
+    
+    m=0;
+    
+    if(a>b){
+        m = ((a*1)+(b*2))/3;
+    }
+    else{
+        m = ((b*1)+(a*2))/3;
+    }
