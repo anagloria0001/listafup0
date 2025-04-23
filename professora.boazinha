@@ -1,0 +1,38 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+// -- escreva seu código abaixo dessa linha  --- (e não altere esta linha)
+
+int main() {
+    float a, b, c, m;
+    
+    printf("Insira o valor da primeira nota: ");
+    scanf("%f", & a);
+    printf("Agora insira o valor da segunda prova: ");
+    scanf("%f", & b);
+    printf("E por último o valor da terceira nota: ");
+    scanf("%f", & c);
+    
+    m=0;
+    
+    if(a>c && b>c){
+        m = (a+b)/2;
+    }
+    else if(a>b && c>b){
+        m = (a+c)/2;
+    }
+    else if(b>a && c>a){
+        m = (b+c)/2;
+    }
+    
+    printf("media %f\n", m);
+    
+    if(m>=7){
+        printf("APROVADO");
+    }
+    else{
+        printf("REPROVADO");
+    }
+    
+    return 0;
+}
