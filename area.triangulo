@@ -1,0 +1,19 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+// -- escreva seu código abaixo dessa linha --- (e não altere esta linha)
+
+int main() {
+    float a, b, h;
+    printf("Insira o valor da base: ");
+    scanf("%f", & b);
+    printf("Agora insira o valor da altura: ");
+    scanf("%f", & h);
+    
+    a = b*h/2;
+    
+    printf("O valor da área é: %f\n", a);
+    
+    return 0;
+
+}
