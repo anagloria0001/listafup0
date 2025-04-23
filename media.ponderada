@@ -1,0 +1,23 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+// -- escreva seu código abaixo dessa linha  --- (e não altere esta linha)
+
+int main() {
+    float x, y, px, py, m;
+    
+    printf("Insira o valor de x: ");
+    scanf("%f", & x);
+    printf("Insira o valor do peso de x: ");
+    scanf("%f", & px);
+    printf("Insira o valor de y: ");
+    scanf("%f", & y);
+    printf("Insira o valor do peso de y: ");
+    scanf("%f", & py);
+    
+    m = ((x*px)+(y*py))/(px+py);
+    
+    printf("O valor da média ponderada é  %f\n", m);
+    
+    return 0;
+}
